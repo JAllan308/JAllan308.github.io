@@ -1,1 +1,30 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Minimal Embedded Map</title>
+    <script type="module" src="https://js.arcgis.com/embeddable-components/4.33/arcgis-embeddable-components.esm.js"></script>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        arcgis-embedded-map {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <arcgis-embedded-map item-id="6008366bb2e046cea71d66d7b14838e9" portal-url="https://insiteeducfacser.maps.arcgis.com" theme="dark" center="-96.97438943255852,32.738757422535976" scale="577790.5542885">
+    </arcgis-embedded-map>
+</body>
+
+</html>
